@@ -1,0 +1,27 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light sky blue background */
+    color: #00008B; /* Dark blue text color */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    text-decoration: none;
+    background-color: #00008B; /* Dark blue background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  
+  .button:hover {
+    background-color: #004d40; /* Darker blue on hover */
+  }
+  
