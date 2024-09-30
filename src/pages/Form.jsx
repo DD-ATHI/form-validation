@@ -174,9 +174,9 @@ function Form() {
             className="input"
           >
             <option value="">Select your place</option>
-            <option value="City1">City1</option>
-            <option value="City2">City2</option>
-            <option value="City3">City3</option>
+            <option value="Madurai">Madurai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Trichy">Trichy</option>
           </select>
           {errors.place && <p className="error">{errors.place}</p>}
         </div>
@@ -196,9 +196,9 @@ function Form() {
               <div id="favorite-food-menu" className="select-items">
                 <label><input type="checkbox" value="Pizza" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Pizza')} /> Pizza</label>
                 <label><input type="checkbox" value="Burger" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Burger')} /> Burger</label>
-                <label><input type="checkbox" value="Sushi" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Sushi')} /> Sushi</label>
+                <label><input type="checkbox" value="Fried Rice" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Fried Rice')} /> Fried Rice</label>
                 <label><input type="checkbox" value="Pasta" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Pasta')} /> Pasta</label>
-                <label><input type="checkbox" value="Salad" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Salad')} /> Salad</label>
+                <label><input type="checkbox" value="Biriyani" onChange={handleFavoriteFoodChange} checked={formValues.favoriteFood.includes('Biriyani')} /> Biriyani</label>
               </div>
             )}
           </div>

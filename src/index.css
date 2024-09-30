@@ -1,4 +1,8 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+/* Global Styles for the Index Page */
+html, body {
+  height: 100%; /* Full height for the html and body */
+}
+
+#root {
+  height: 100%; /* Ensure the root div takes full height */
 }

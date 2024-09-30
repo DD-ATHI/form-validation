@@ -1,27 +1,33 @@
 .home-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #f0f8ff; /* Light sky blue background */
-    color: #00008B; /* Dark blue text color */
+    flex-direction: column; /* Align items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    height: 100vh; /* Full viewport height */
+    background-color: #f0f8ff; /* Light blue background color */
+    color: #333; /* Dark text color */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add padding */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; /* Rounded corners */
   }
   
   h1 {
-    margin-bottom: 20px;
+    font-size: 2.5rem; /* Larger font size for the heading */
+    margin-bottom: 20px; /* Spacing below the heading */
   }
   
   .button {
-    text-decoration: none;
-    background-color: #00008B; /* Dark blue background */
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
+    padding: 12px 24px; /* Padding for the button */
+    background-color: #007bff; /* Bootstrap blue color */
+    color: white; /* White text color */
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 5px; /* Rounded button */
+    font-size: 1.2rem; /* Larger font size for the button */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
   }
   
   .button:hover {
-    background-color: #004d40; /* Darker blue on hover */
+    background-color: #0056b3; /* Darker blue on hover */
   }
   
